@@ -8,4 +8,5 @@ project ("Kingdom")
 # Add source to this project's executable.
 add_executable (Kingdom "Kingdom.cpp" "Kingdom.h")
 
-# TODO: Add tests and install targets if needed.
+# Compile required libraries from antuco
+add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/engine/antuco")
